@@ -31,8 +31,8 @@ if __name__ == '__main__':
                         print()
 
                         try:
-                                userguess = str(input('Please enter your next guess: '))
-                                guess = userguess.lower()
+                                userguess = str(input('Please enter your next guess: ')) #take user guess
+                                guess = userguess.lower() #ensure user input is lower case
                         except:
                                 print('Only enter letters')
                                 continue
